@@ -33,7 +33,7 @@ async def start_pm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             return await message.reply_photo(        
-                update.effective_message.reply_sticker(
+                client.effective_message.reply_sticker(
                 "CAACAgEAAxkBAAID3GYknDkwl4foDoKtlad7wNvJEqqNAAL2AwACKhGpRE51sjSpEHMyNAQ"
                 ),
                 photo=config.START_IMG_URL,
@@ -88,7 +88,7 @@ async def start_pm(client, message: Message, _):
     else:
         out = private_panel(_)
         await message.reply_photo(
-            update.effective_message.reply_sticker(
+            client.effective_message.reply_sticker(
             "CAACAgEAAxkBAAID3GYknDkwl4foDoKtlad7wNvJEqqNAAL2AwACKhGpRE51sjSpEHMyNAQ"
             ),
             photo=config.START_IMG_URL,
@@ -108,7 +108,7 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
-        update.effective_message.reply_sticker(
+        client.effective_message.reply_sticker(
         "CAACAgEAAxkBAAID3GYknDkwl4foDoKtlad7wNvJEqqNAAL2AwACKhGpRE51sjSpEHMyNAQ"
         ),
         photo=config.START_IMG_URL,
@@ -146,7 +146,7 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
                 await message.reply_photo(        
-                    update.effective_message.reply_sticker(
+                    client.effective_message.reply_sticker(
                     "CAACAgEAAxkBAAID3GYknDkwl4foDoKtlad7wNvJEqqNAAL2AwACKhGpRE51sjSpEHMyNAQ"
                     ),
                     photo=config.START_IMG_URL,
