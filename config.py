@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 5000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9989))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -81,7 +81,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/a5cff34236de2cfcbcaf1.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/3ead4faeebf985ce86553.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/7bc9e1b4b0a0360237e3b.jpg"
