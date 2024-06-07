@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from  AnonXMusic import app
+from AnonXMusic import app
 
 
 def start_panel(_):
@@ -32,7 +32,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
-            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
         ],
         [
             InlineKeyboardButton(
@@ -40,8 +40,7 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-        ],
+            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),        ],
         
         [
             InlineKeyboardButton(text="ᴹᵒʳᵉ ᴮᵒᵗˢ", url=f"https://t.me/+Wora8dGaHoxmOTg1")
