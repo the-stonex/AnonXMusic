@@ -32,5 +32,8 @@ def private_panel(_):
         [
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL)
         ],
-    ]
+
+    [
+            InlineKeyboardButton(text="ᴹᵒʳᵉ ᴮᵒᵗˢ", url=f"https://t.me/+Wora8dGaHoxmOTg1")
+        ],
     return buttons
