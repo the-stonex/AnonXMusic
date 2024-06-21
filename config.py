@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9989))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/leo_updates")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+25ycpMEBd7QwMzg1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Wr5PYab_vmgyMmRl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
