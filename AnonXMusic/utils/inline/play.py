@@ -20,7 +20,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="ᴄʜᴀᴛ", url=f"https://t.me/+4cEDA4oLWwQ5YzY1"),
         ],
         [
             InlineKeyboardButton(
